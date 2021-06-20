@@ -3483,7 +3483,7 @@ class PlayState extends MusicBeatState
 				if (!resetMashViolation && mashViolations >= 1)
 					mashViolations--;
 
-				if (mashViolations < 0)
+				if (mashViolations > 0)
 					mashViolations = 0;
 
 				if (!note.wasGoodHit)
