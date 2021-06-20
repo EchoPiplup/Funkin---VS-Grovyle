@@ -9,7 +9,6 @@ import flixel.input.FlxKeyManager;
 import flixel.text.FlxText;
 import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
-import HalfsizeEffect.HalfsizeEffect;
 
 using StringTools;
 
@@ -34,7 +33,6 @@ class DialogueBox extends FlxSpriteGroup
 
 	var handSelect:FlxSprite;
 	var bgFade:FlxSprite;
-	var halfsizeShader:HalfsizeEffect.HalfsizeShader;
 
 	public function new(talkingRight:Bool = true, ?dialogueList:Array<String>)
 	{
